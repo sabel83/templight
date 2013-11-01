@@ -1,0 +1,86 @@
+#!/usr/bin/python
+
+# Copyright (C) 2013, Abel Sinkovics (abel@sinkovics.hu)
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import sys
+import xml.sax
+
+class TemplightHandler(xml.sax.ContentHandler):
+  def __init__(self):
+    # A context -> unique id mapping
+    self._ids = {}
+    self._next_id = 0
+
+    # Elements: (<from>, <to>, <memoizated>)
+    self._edges = []
+
+    # instantiation stack (The call-stack of template metaprograms)
+    self._stack = []
+
+    self._in_template_begin = False
+
+  def startElement(self, name, attrs):
+    if name == 'TemplateBegin':
+      self._in_template_begin = True
+    elif name == 'TemplateEnd':
+      self._stack.pop()
+      self._in_template_begin = False
+    elif name == 'Context' and self._in_template_begin:
+      self.instantiation_requested(attrs['context'])
+  
+  def instantiation_requested(self, name):
+    memoized = self.store(name)
+    tid = self._ids[name]
+    if len(self._stack) > 0:
+      self._edges.append((self._stack[len(self._stack) - 1], tid, memoized))
+    self._stack.append(tid)
+
+  # returns: was the node in the map?
+  def store(self, name):
+    if not self._ids.has_key(name):
+      self._ids[name] = 't%d' % (self._next_id)
+      self._next_id = self._next_id + 1
+      return False
+    else:
+      return True
+
+  def display(self):
+    print 'digraph G {'
+    print
+    for name in self._ids.keys():
+      shortname = name[:name.find('<')]
+      print '  %s [label="%s", shape=rectangle];' % (self._ids[name], shortname)
+    print
+    for (f, t, m) in self._edges:
+      if m:
+        style = "dashed"
+      else:
+        style = "solid"
+      print '  %s -> %s [style=%s];' % (f, t, style)
+    print
+    print '}'
+
+def main():
+  if len(sys.argv) == 2:
+    h = TemplightHandler()
+    xml.sax.parse(sys.argv[1], h)
+    h.display()
+  else:
+    print 'Usage: %s <name of xml trace file>' % (sys.argv[0])
+
+if __name__ == '__main__':
+  main()
+

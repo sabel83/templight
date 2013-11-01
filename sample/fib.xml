@@ -1,0 +1,819 @@
+<?xml version="1.0" standalone="yes"?>
+<Trace>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "lazy_fib&lt;int_&lt;3&gt; &gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.419957"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "eval_if&lt;less&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt;, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|66|3</PointOfInstantiation>
+    <TimeStamp time = "418647494.419986"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "less&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|23</PointOfInstantiation>
+    <TimeStamp time = "418647494.419992"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "int_&lt;3&gt;"/>
+    <PointOfInstantiation>./fib.hpp|43|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420003"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420014"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;3&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420017"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420017"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "int_&lt;3&gt;::value"/>
+    <PointOfInstantiation>./fib.hpp|43|27</PointOfInstantiation>
+    <TimeStamp time = "418647494.420023"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420077"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>./fib.hpp|43|35</PointOfInstantiation>
+    <TimeStamp time = "418647494.420081"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420091"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420093"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420094"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "int_&lt;2&gt;::value"/>
+    <PointOfInstantiation>./fib.hpp|43|44</PointOfInstantiation>
+    <TimeStamp time = "418647494.420096"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420113"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420148"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "bool_&lt;false&gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|26</PointOfInstantiation>
+    <TimeStamp time = "418647494.420151"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420157"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "bool_&lt;false&gt;::value"/>
+    <PointOfInstantiation>./fib.hpp|61|32</PointOfInstantiation>
+    <TimeStamp time = "418647494.420159"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420175"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>DeducedTemplateArgumentSubstitution</Kind>
+    <Context context = "if_c&lt;false, type-parameter-0-0, type-parameter-0-1&gt;"/>
+    <PointOfInstantiation>./fib.hpp|55|8</PointOfInstantiation>
+    <TimeStamp time = "418647494.420192"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>DeducedTemplateArgumentSubstitution</Kind>
+    <TimeStamp time = "418647494.420202"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "if_c&lt;false, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420203"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420206"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "plus&lt;lazy_fib&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420212"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "lazy_fib&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|31|16</PointOfInstantiation>
+    <TimeStamp time = "418647494.420215"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "eval_if&lt;less&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|66|3</PointOfInstantiation>
+    <TimeStamp time = "418647494.420226"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "less&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|23</PointOfInstantiation>
+    <TimeStamp time = "418647494.420229"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|43|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420237"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;3&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420242"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420243"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>./fib.hpp|37|33</PointOfInstantiation>
+    <TimeStamp time = "418647494.420249"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420256"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420257"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420258"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "int_&lt;1&gt;::value"/>
+    <PointOfInstantiation>./fib.hpp|37|42</PointOfInstantiation>
+    <TimeStamp time = "418647494.420259"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420277"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420293"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420296"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420296"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420311"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "bool_&lt;false&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420313"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420313"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>DeducedTemplateArgumentSubstitution</Kind>
+    <Context context = "if_c&lt;false, type-parameter-0-0, type-parameter-0-1&gt;"/>
+    <PointOfInstantiation>./fib.hpp|55|8</PointOfInstantiation>
+    <TimeStamp time = "418647494.420325"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>DeducedTemplateArgumentSubstitution</Kind>
+    <TimeStamp time = "418647494.420328"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "if_c&lt;false, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420329"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420332"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "plus&lt;lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420335"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|31|16</PointOfInstantiation>
+    <TimeStamp time = "418647494.420337"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "eval_if&lt;less&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|66|3</PointOfInstantiation>
+    <TimeStamp time = "418647494.420354"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "less&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|23</PointOfInstantiation>
+    <TimeStamp time = "418647494.420356"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|43|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420359"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420364"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420364"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420367"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420367"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420370"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420370"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420383"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420385"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420385"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420388"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420388"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420397"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "bool_&lt;true&gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|26</PointOfInstantiation>
+    <TimeStamp time = "418647494.420400"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420404"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "bool_&lt;true&gt;::value"/>
+    <PointOfInstantiation>./fib.hpp|61|32</PointOfInstantiation>
+    <TimeStamp time = "418647494.420406"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420424"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "if_c&lt;true, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420434"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420437"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420439"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420440"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420445"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420447"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420452"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420452"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|31|33</PointOfInstantiation>
+    <TimeStamp time = "418647494.420456"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "eval_if&lt;less&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|66|3</PointOfInstantiation>
+    <TimeStamp time = "418647494.420471"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "less&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;2&gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|23</PointOfInstantiation>
+    <TimeStamp time = "418647494.420473"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|43|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420476"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420478"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420478"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420479"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420480"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420493"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "int_&lt;0&gt;"/>
+    <PointOfInstantiation>./fib.hpp|43|21</PointOfInstantiation>
+    <TimeStamp time = "418647494.420495"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420500"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "int_&lt;0&gt;::value"/>
+    <PointOfInstantiation>./fib.hpp|43|27</PointOfInstantiation>
+    <TimeStamp time = "418647494.420501"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420518"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420521"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420521"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420533"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "bool_&lt;true&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420535"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420536"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "if_c&lt;true, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;1&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420545"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420547"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420549"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420549"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420552"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420553"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420556"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420556"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420569"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420571"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420573"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420575"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420576"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "lazy_fib&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|31|33</PointOfInstantiation>
+    <TimeStamp time = "418647494.420579"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "eval_if&lt;less&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt;, int_&lt;2&gt; &gt;, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|66|3</PointOfInstantiation>
+    <TimeStamp time = "418647494.420592"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "less&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt;, int_&lt;2&gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|23</PointOfInstantiation>
+    <TimeStamp time = "418647494.420595"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|43|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420597"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;3&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420602"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420603"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420606"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420607"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420616"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420618"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420619"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;2&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420621"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420622"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420630"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "bool_&lt;true&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420632"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420632"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>TemplateInstantiation</Kind>
+    <Context context = "if_c&lt;true, int_&lt;1&gt;, plus&lt;lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt;, int_&lt;1&gt; &gt; &gt;, lazy_fib&lt;minus&lt;minus&lt;int_&lt;3&gt;, int_&lt;2&gt; &gt;, int_&lt;2&gt; &gt; &gt; &gt; &gt;"/>
+    <PointOfInstantiation>./fib.hpp|61|18</PointOfInstantiation>
+    <TimeStamp time = "418647494.420642"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420644"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420646"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420646"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420648"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420650"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;1&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420652"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420653"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420662"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420664"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateEnd>
+    <Kind>TemplateInstantiation</Kind>
+    <TimeStamp time = "418647494.420666"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+<TemplateBegin>
+    <Kind>Memoization</Kind>
+    <Context context = "int_&lt;3&gt;"/>
+    <PointOfInstantiation>fib_lazy_3.cpp|5|10</PointOfInstantiation>
+    <TimeStamp time = "418647494.420669"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateBegin>
+<TemplateEnd>
+    <Kind>Memoization</Kind>
+    <TimeStamp time = "418647494.420669"/>
+    <MemoryUsage bytes = "0"/>
+</TemplateEnd>
+</Trace>
